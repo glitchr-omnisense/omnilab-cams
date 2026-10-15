@@ -1,0 +1,1285 @@
+{
+    "collections": [
+        {
+            "type": "Collection",
+            "id": "cams-global-greenhouse-gas-forecasts",
+            "stac_version": "1.1.0",
+            "title": "CAMS global greenhouse gas forecasts",
+            "description": "CAMS produces global forecasts for the two main long-lived greenhouse gases once a day. This dataset consists of 5-day high-resolution forecasts of carbon dioxide (CO2) and methane (CH4). Additionally, carbon monoxide (CO) and meteorological parameters relevant to the CAMS greenhouse gas forecast ar",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Global",
+                "Parameter family: Greenhouse gas",
+                "Temporal coverage: Present",
+                "Temporal coverage: Future",
+                "Product type: Forecast"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            0,
+                            -89,
+                            360,
+                            89
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2024-03-01T00:00:00+00:00",
+                            "2026-10-14T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-greenhouse-gas-forecasts"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-forecasts/overview_0529b16a644b49da937a6fb6b25e3f2467e9fb8273fcb6ea7ff03c0d6423a91d.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2024-10-21T00:00:00Z",
+            "updated": "2026-10-15T00:00:00Z",
+            "sci:doi": "10.24381/93910310",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:16:32.758759+00:00"
+            },
+            "cads:fair": 84
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-greenhouse-gas-inversion",
+            "stac_version": "1.1.0",
+            "title": "CAMS global inversion-optimised greenhouse gas fluxes and concentrations",
+            "description": "This data set contains net fluxes at the surface, atmospheric mixing ratios at model levels, and column-mean atmospheric mixing ratios  for carbon dioxide (CO2), methane (CH4) and nitrous oxide (N20).\nNatural and anthropogenic surface fluxes of greenhouse gases are key drivers of the evolution of Ea",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Global",
+                "Variable domain: Emissions and surface fluxes",
+                "Parameter family: Greenhouse gas"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1979-01-01T00:00:00+00:00",
+                            "2025-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-greenhouse-gas-inversion"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-inversion/overview_38d8bdbbbdcb2ad03e03cf6fed7c2fa885db8128b8da42dcccc57c90064c73be.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-03-16T00:00:00Z",
+            "updated": "2026-09-14T00:00:00Z",
+            "sci:doi": "10.24381/ed2851d2",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:17:06.031891+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-reanalysis-eac4",
+            "stac_version": "1.1.0",
+            "title": "CAMS global reanalysis (EAC4)",
+            "description": "EAC4 (ECMWF Atmospheric Composition Reanalysis 4) is the fourth generation ECMWF global reanalysis of atmospheric composition. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of p",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Spatial coverage: Global",
+                "Variable domain: Atmosphere (meteorology)"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2025-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-reanalysis-eac4"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-reanalysis-eac4/overview_e082c9db427fb72cdd252bf0cde444a48b36e772a19a72f1c749dc72c4a00929.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-02-06T00:00:00Z",
+            "updated": "2026-08-24T00:00:00Z",
+            "sci:doi": "10.24381/d58bbf47",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:21:04.872912+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-europe-air-quality-reanalyses",
+            "stac_version": "1.1.0",
+            "title": "CAMS European air quality reanalyses",
+            "description": "This dataset provides annual air quality reanalyses for Europe based on both unvalidated and validated observations.\nCAMS produces annual air quality reanalyses for the European domain at significantly higher spatial resolution (0.1 degrees, approx. 10km) than is available from the global reanalyses",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Europe",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -25,
+                            30,
+                            45,
+                            72
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2013-01-01T00:00:00+00:00",
+                            "2024-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-europe-air-quality-reanalyses"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-europe-air-quality-reanalyses/overview_bbfe0b2e1170acdb9c1e489b34a4c7db89080f96fcde03acfdca90f450c8582a.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-09-03T00:00:00Z",
+            "updated": "2026-06-23T00:00:00Z",
+            "sci:doi": "10.24381/7cc0465a",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:20:33.915780+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-europe-air-quality-forecasts-optimised-at-observation-sites",
+            "stac_version": "1.1.0",
+            "title": "CAMS European air quality forecasts optimised at observation sites",
+            "description": "This dataset provides daily air quality forecasts at European observation\nstations after optimisation using a statistical post-processing method called\nModel Output Statistics (MOS). The unoptimised \"raw\" forecasts are also\nprovided in the same format.\nThe MOS method uses machine learning with predi",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Europe",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Product type: Analysis",
+                "Temporal coverage: Present",
+                "Temporal coverage: Future",
+                "Product type: Forecast"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -25,
+                            30,
+                            45,
+                            72
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2024-01-17T00:00:00+00:00",
+                            "2026-10-14T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-europe-air-quality-forecasts-optimised-at-observation-sites"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts-optimised-at-observation-sites/overview_b15cc47596728db7125d2c3ef7bca2397ef8bd54717ed019703c6a13320d1e54.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2024-02-01T00:00:00Z",
+            "updated": "2024-02-01T00:00:00Z",
+            "sci:doi": "10.24381/2cce4067",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:24:54.731312+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-gridded-solar-radiation",
+            "stac_version": "1.1.0",
+            "title": "CAMS gridded solar radiation",
+            "description": "This dataset provides historical values of global, direct and diffuse solar\nirradiation, as well as direct normal irradiation, on a latitude/longitude grid\ncovering land surfaces and coastal areas of Europe, Africa, Oceania, Eastern\nSouth America, the Middle East and South-East Asia. It is created f",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Spatial coverage: Europe",
+                "Parameter family: Radiation",
+                "Product type: Analysis",
+                "Variable domain: Solar radiation",
+                "Spatial coverage: Africa",
+                "Spatial coverage: South America"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -65.95,
+                            -40.55,
+                            65.05,
+                            60.05
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2005-01-01T00:00:00+00:00",
+                            "2023-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-gridded-solar-radiation"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-gridded-solar-radiation/overview_6e52e4584f0a44c4b38952912cfde9a4f9124c54a964e75b3cc6de09a10260b5.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2022-12-01T00:00:00Z",
+            "updated": "2022-12-01T00:00:00Z",
+            "sci:doi": "10.24381/9ab61afa",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:25:15.156017+00:00"
+            },
+            "cads:fair": 92
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-fire-emissions-gfas",
+            "stac_version": "1.1.0",
+            "title": "CAMS global biomass burning emissions based on fire radiative power (GFAS)",
+            "description": "Emissions of atmospheric pollutants from biomass burning and vegetation fires are key drivers of the evolution of atmospheric composition, with a high degree of spatial and temporal variability, and an accurate representation of them in models is essential.\nThe CAMS Global Fire Assimilation System (",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Spatial coverage: Global",
+                "Variable domain: Emissions and surface fluxes",
+                "Product type: Analysis",
+                "Temporal coverage: Present"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2026-10-14T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-fire-emissions-gfas"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-fire-emissions-gfas/overview_eaf1132e6ada572e7ab38d00431929a48be55ac21bb5ec24bbe5d0c65be670ad.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2022-06-15T00:00:00Z",
+            "updated": "2022-06-15T00:00:00Z",
+            "sci:doi": "10.24381/a05253c7",
+            "cads:message": {
+                "id": "contents/cams/2025-01-13-warning-cams-global-fire-emissions-gfas.md",
+                "date": "2025-11-25T00:00:00Z",
+                "summary": null,
+                "url": null,
+                "severity": "warning",
+                "content": "Known issue with anomalous FRP (and emissions flux) values associated with false Aqua MODIS detection at high latitudes over the eastern Arctic for the period 9-14 August 2024. \nWatch the [Forum announcement](https://forum.ecmwf.int/t/issue-with-gfas-and-cams-global-forecast-outputs-due-to-contaminated-observations/3995) for updates.",
+                "live": true,
+                "show_date": true
+            },
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:24:56.794237+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-ghg-reanalysis-egg4-monthly",
+            "stac_version": "1.1.0",
+            "title": "CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields",
+            "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset th",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Parameter family: Aerosol",
+                "Spatial coverage: Global",
+                "Variable domain: Atmosphere (meteorology)",
+                "Parameter family: Greenhouse gas"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2020-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4-monthly"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4-monthly/overview_e8cbff72d10984bcb4a7b718a22ebfc227099a10f5b838038c6bfd36bb60c57a.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-04-23T00:00:00Z",
+            "updated": "2021-04-23T00:00:00Z",
+            "sci:doi": "10.24381/a90c7e33",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:27:17.202063+00:00"
+            },
+            "cads:update_frequency": "Irregular",
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-ghg-reanalysis-egg4",
+            "stac_version": "1.1.0",
+            "title": "CAMS global greenhouse gas reanalysis (EGG4)",
+            "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset th",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Global",
+                "Variable domain: Atmosphere (meteorology)",
+                "Parameter family: Greenhouse gas"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2020-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-04-23T00:00:00Z",
+            "updated": "2021-04-23T00:00:00Z",
+            "sci:doi": "10.24381/cda4ed31",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:27:25.868877+00:00"
+            },
+            "cads:update_frequency": "Irregular",
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-atmospheric-composition-forecasts",
+            "stac_version": "1.1.0",
+            "title": "CAMS global atmospheric composition forecasts",
+            "description": "CAMS produces global forecasts for atmospheric composition twice a day. The forecasts consist of more than 50 chemical species (e.g. ozone, nitrogen dioxide, carbon monoxide) and seven different types of aerosol (desert dust, sea salt, organic matter, black carbon, sulphate, nitrate and ammonium aer",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Spatial coverage: Global",
+                "Variable domain: Atmosphere (meteorology)",
+                "Product type: Analysis",
+                "Temporal coverage: Present",
+                "Temporal coverage: Future",
+                "Product type: Forecast"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2015-01-01T00:00:00+00:00",
+                            "2026-10-14T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-atmospheric-composition-forecasts"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-atmospheric-composition-forecasts/overview_a484dee4988156df196a92b874b23a6d2686921df6b17c528d1a171cb51d0240.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-03-25T00:00:00Z",
+            "updated": "2021-03-25T00:00:00Z",
+            "sci:doi": "10.24381/04a0b097",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:27:48.003508+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-radiative-forcings",
+            "stac_version": "1.1.0",
+            "title": "CAMS global radiative forcings",
+            "description": "This dataset provides geographical distributions of the radiative forcing (RF) by key atmospheric constituents. The radiative forcing estimates are based on the CAMS reanalysis and additional model simulations and are provided separately for...\n\ncarbon dioxide \nmethane \ntropospheric ozone \nstratosph",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Spatial coverage: Global",
+                "Parameter family: Greenhouse gas",
+                "Parameter family: Radiation",
+                "Variable domain: Solar radiation"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2017-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcings"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcings/overview_64b7f931c9378814193a3f8879de137f73271a1e1320780d78ec894e974b75e0.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-02-17T00:00:00Z",
+            "updated": "2021-02-17T00:00:00Z",
+            "sci:doi": "10.24381/9fe15f72",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:25:34.352991+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-radiative-forcing-auxilliary-variables",
+            "stac_version": "1.1.0",
+            "title": "CAMS global radiative forcing - auxilliary variables",
+            "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS g",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Spatial coverage: Global",
+                "Parameter family: Radiation",
+                "Spatial coverage: Satellite image area",
+                "Product type: Analysis",
+                "Variable domain: Solar radiation"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2017-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2021-02-17T00:00:00Z",
+            "updated": "2021-02-17T00:00:00Z",
+            "sci:doi": "10.24381/a75a8824",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:24:51.987948+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-emission-inventories",
+            "stac_version": "1.1.0",
+            "title": "CAMS global emission inventories",
+            "description": "This data set contains gridded distributions of global anthropogenic and natural emissions.\nNatural and anthropogenic emissions of atmospheric pollutants and greenhouse gases are key drivers of the evolution of the composition of the atmosphere, so an accurate representation of them in forecast mode",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Product type: Emission inventory",
+                "Spatial coverage: Global",
+                "Variable domain: Emissions and surface fluxes"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2000-01-01T00:00:00+00:00",
+                            "2020-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-emission-inventories"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-emission-inventories/overview_def42da7bfd33d3f2cc49e07bc5cac39340cc56944bcbbd96d7f8117e5bd3756.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-09-09T00:00:00Z",
+            "updated": "2020-09-09T00:00:00Z",
+            "sci:doi": "10.24381/1d158bec",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:25:36.739337+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-europe-air-quality-forecasts",
+            "stac_version": "1.1.0",
+            "title": "CAMS European air quality forecasts",
+            "description": "This dataset provides daily air quality analyses and forecasts for Europe. \nCAMS produces specific daily air quality analyses and forecasts for the European\ndomain at significantly higher spatial resolution (0.1 degrees, approx. 10km)\nthan is available from the global analyses and forecasts. The pro",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Spatial coverage: Europe",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Product type: Analysis",
+                "Temporal coverage: Present",
+                "Temporal coverage: Future",
+                "Product type: Forecast"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -25,
+                            30,
+                            45,
+                            72
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2023-10-10T00:00:00+00:00",
+                            "2026-10-15T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-europe-air-quality-forecasts"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-02-06T00:00:00Z",
+            "updated": "2020-02-06T00:00:00Z",
+            "sci:doi": "10.24381/a4005cee",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:26:52.547177+00:00"
+            },
+            "cads:fair": 88
+        },
+        {
+            "type": "Collection",
+            "id": "cams-solar-radiation-timeseries",
+            "stac_version": "1.1.0",
+            "title": "CAMS solar radiation time-series",
+            "description": "The CAMS solar radiation services provide historical values (2004 to present) of global (GHI), direct (BHI) and diffuse (DHI) solar irradiation, as well as direct normal irradiation (BNI). The aim is to fulfil the needs of European and national policy development and the requirements of both commerc",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Temporal coverage: Past",
+                "Spatial coverage: Global",
+                "Parameter family: Radiation",
+                "Spatial coverage: Satellite image area",
+                "Product type: Analysis",
+                "Variable domain: Solar radiation"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            0,
+                            -89,
+                            360,
+                            89
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2004-01-01T00:00:00+00:00",
+                            "2026-10-14T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-solar-radiation-timeseries"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-02-06T00:00:00Z",
+            "updated": "2020-02-06T00:00:00Z",
+            "sci:doi": "10.24381/5cab0912",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:29:25.182026+00:00"
+            },
+            "cads:fair": 92
+        },
+        {
+            "type": "Collection",
+            "id": "cams-global-reanalysis-eac4-monthly",
+            "stac_version": "1.1.0",
+            "title": "CAMS global reanalysis (EAC4) monthly averaged fields",
+            "description": "EAC4 (ECMWF Atmospheric Composition Reanalysis 4) is the fourth generation ECMWF global reanalysis of atmospheric composition. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of p",
+            "summaries": [],
+            "providers": [
+                {
+                    "name": "ECMWF"
+                }
+            ],
+            "keywords": [
+                "Product type: Reanalysis",
+                "Temporal coverage: Past",
+                "Variable domain: Atmosphere (composition)",
+                "Parameter family: Aerosol",
+                "Parameter family: Reactive gas",
+                "Spatial coverage: Global",
+                "Variable domain: Atmosphere (meteorology)"
+            ],
+            "license": "CC-BY-4.0",
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -180,
+                            -90,
+                            180,
+                            90
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2003-01-01T00:00:00+00:00",
+                            "2025-12-31T00:00:00+00:00"
+                        ]
+                    ]
+                }
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-reanalysis-eac4-monthly"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-reanalysis-eac4-monthly/overview_e26d2a815d3e6499bc8d18623930c253deb87757ca8df91fa99e939137d38a46.png",
+                    "type": "image/jpg",
+                    "roles": [
+                        "thumbnail"
+                    ]
+                }
+            },
+            "published": "2020-02-06T00:00:00Z",
+            "updated": "2020-02-06T00:00:00Z",
+            "sci:doi": "10.24381/fd75fff2",
+            "cads:disabled_reason": null,
+            "cads:sanity_check": {
+                "status": "available",
+                "timestamp": "2026-10-15T06:25:36.647569+00:00"
+            },
+            "cads:fair": 88
+        }
+    ],
+    "links": [
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+        },
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections"
+        }
+    ],
+    "numberMatched": 16,
+    "numberReturned": 16
+}

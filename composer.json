@@ -1,0 +1,47 @@
+{
+    "name": "omnilab/cams",
+    "type": "library",
+    "description": "Omnilab CAMS: the Copernicus Atmosphere Monitoring Service's Atmosphere Data Store - its datasets (European air quality forecasts and reanalyses, global atmospheric composition, greenhouse gases, fire emissions, solar radiation) as products over a place and a period, its catalogue's search, a dataset's variables and request form, what a request would cost, read without an account; with an account's key, a request submitted and followed until its file is the product's asset. The store runs the Climate Data Store's software: omnilab/cds's source, on the ADS.",
+    "keywords": [
+        "science",
+        "atmosphere",
+        "air-quality",
+        "greenhouse-gases",
+        "cams",
+        "copernicus",
+        "ecmwf",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "omnilab/cds": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Cams\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Cams\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
