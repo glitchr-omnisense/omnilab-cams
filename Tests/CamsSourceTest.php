@@ -99,7 +99,7 @@ final class CamsSourceTest extends TestCase
     {
         self::assertSame('cams', (new CamsSourceFactory())->getName());
         self::assertSame('cams', $this->source()->getName());
-        self::assertSame([Capability::PRODUCTS, Capability::AREA], $this->source()->capabilities());
+        self::assertSame([Capability::PRODUCTS, Capability::AREA, Capability::DATASETS, Capability::JOBS, Capability::OPEN], $this->source()->capabilities());
 
         try {
             $this->source()->submit('cams-europe-air-quality-forecasts', []);
