@@ -1,7 +1,7 @@
 # omnilab/cams
 
 The Copernicus Atmosphere Monitoring Service's Atmosphere Data Store for
-[glitchr/omnilab](https://github.com/glitchr-studio/omnilab): its datasets - the European air
+[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): its datasets - the European air
 quality forecasts and reanalyses, the global atmospheric composition forecasts and reanalysis
 (EAC4), greenhouse gases, fire emissions (GFAS), solar radiation - as products over a place and a
 period, its catalogue's search, a dataset's variables and request form, what a request would cost:
