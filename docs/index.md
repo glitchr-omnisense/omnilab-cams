@@ -25,7 +25,7 @@ register `CamsSourceFactory` as a service (it is autoconfigured as a `SourceFact
 The Atmosphere Data Store's (`https://ads.atmosphere.copernicus.eu/api`): the same catalogue
 (`/catalogue/v1`, STAC) and request API (`/retrieve/v1`, OGC API - Processes) as the Climate Data
 Store's, which omnilab/cds reads. Every call, what each method answers, what a product holds and
-what is refused are in [omnilab/cds's docs](https://github.com/glitchr-studio/omnilab-cds/blob/1.x/docs/index.md);
+what is refused are in [omnilab/cds's docs](https://github.com/glitchr-omnisense/omnilab-cds/blob/1.x/docs/index.md);
 the source here is that `CdsSource`, named `cams`, its pages under
 `https://ads.atmosphere.copernicus.eu/datasets/`.
 

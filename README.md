@@ -1,7 +1,7 @@
 # omnilab/cams
 
 The Copernicus Atmosphere Monitoring Service's Atmosphere Data Store for
-[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): its datasets - the European air
+[omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): its datasets - the European air
 quality forecasts and reanalyses, the global atmospheric composition forecasts and reanalysis
 (EAC4), greenhouse gases, fire emissions (GFAS), solar radiation - as products over a place and a
 period, its catalogue's search, a dataset's variables and request form, what a request would cost:
@@ -43,7 +43,7 @@ omnilab:
 
 The Atmosphere Data Store runs the same software as the Climate Data Store (ECMWF's data stores):
 the same STAC catalogue, the same request API. This package is its factory - the name `cams`, the
-ADS's address - and builds [omnilab/cds](https://github.com/glitchr-studio/omnilab-cds)'s
+ADS's address - and builds [omnilab/cds](https://github.com/glitchr-omnisense/omnilab-cds)'s
 `CdsSource`: `products()`, `datasets()`, `dataset()`, `cost()`, `submit()`, `job()`, `jobs()`
 behave as its docs say. Two packages rather than one with an option: each store has its own name
 in a registry, its own key (an ADS account is not a CDS account), its own catalogue to verify and
