@@ -62,6 +62,17 @@ here. The key is read from the configuration only, never written.
 
 See [docs/](docs/index.md).
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://ads.atmosphere.copernicus.eu/how-to-api on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: Licence to use Copernicus Products (rev. 12); commercial use: allowed.
+- Credit: required: Generated using Copernicus Atmosphere Monitoring Service information [Year] (https://ads.atmosphere.copernicus.eu/licences/licence-to-use-copernicus-products).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or

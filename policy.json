@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "cams",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Generated using Copernicus Atmosphere Monitoring Service information [Year]",
+            "url": "https://ads.atmosphere.copernicus.eu/licences/licence-to-use-copernicus-products",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "Licence to use Copernicus Products (rev. 12)"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://ads.atmosphere.copernicus.eu/disclaimer-privacy",
+        "policy": "https://ads.atmosphere.copernicus.eu/how-to-api",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": null,
+        "notes": "Atmosphere Data Store, same software as the CDS (omnilab/cds's CdsSource on ads.atmosphere.copernicus.eu). Read 2026-11-10: how-to-api and Terms of Use state no request rate, no concurrency, no User-Agent rule; each dataset's licence applies, accepted once per dataset before its first request. CAMS datasets: Licence to use Copernicus Products (rev. 12): free, worldwide, perpetual, any lawful purpose, reproduction and distribution allowed; credit (sec. 5.1) 'Generated using Copernicus Atmosphere Monitoring Service information [Year]' or 'Contains modified ...' when modified, plus a statement that neither the European Commission nor ECMWF is responsible for any use made. Some ADS datasets carry another licence (e.g. CICERO CMIP6 indicators, non-commercial): check the dataset's. Catalogue reads need no key; submit/job need an ADS account's personal access token. No rate-limit headers seen on a test call."
+    }
+}

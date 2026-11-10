@@ -1,0 +1,103 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: CamsSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: CamsSourceFactory.php
+
+		-
+			message: '#^Parameter \#4 \$key of class Omnilab\\Cds\\CdsSource constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: CamsSourceFactory.php
+
+		-
+			message: '#^Cannot access offset ''model'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''private\-token'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''values'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access property \$bbox on Omnilab\\Model\\Product\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access property \$properties on Omnilab\\Model\\Product\|null\.$#'
+			identifier: property.nonObject
+			count: 4
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access property \$source on Omnilab\\Model\\Product\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilab\\Model\\Product\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot call method toArray\(\) on Omnilab\\Model\\BBox\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Method Omnilab\\Cams\\Tests\\CamsSourceTest\:\:source\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$options of method Omnilab\\Source\\SourceFactory\:\:create\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Parameter \#2 \$haystack of static method PHPUnit\\Framework\\Assert\:\:assertContains\(\) expects iterable, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Parameter \#2 \$haystack of static method PHPUnit\\Framework\\Assert\:\:assertCount\(\) expects Countable\|iterable, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/CamsSourceTest.php
+
+		-
+			message: '#^Property Omnilab\\Cams\\Tests\\CamsSourceTest\:\:\$calls \(list\<array\{string, string, list\<string\>\}\>\) does not accept non\-empty\-list\<array\{string, string, mixed\}\>\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: Tests/CamsSourceTest.php
