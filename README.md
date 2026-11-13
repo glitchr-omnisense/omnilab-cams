@@ -39,6 +39,35 @@ omnilab:
                 mailto: 'support@glitchr.io'   # in the User-Agent
 ```
 
+## Install and a first call
+
+```sh
+composer require omnilab/cams
+```
+
+A real call, with no account and no key: the CAMS European air quality forecasts' entry in the
+Atmosphere Data Store's catalogue (reading the catalogue needs no account). `mailto` is your
+address, sent in the User-Agent so that the service can reach you before it blocks a caller; the
+source keeps to the limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Cams\CamsSourceFactory;
+
+$cams = (new CamsSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$forecasts = $cams->dataset('cams-europe-air-quality-forecasts');
+echo $forecasts->id, ': ', count($forecasts->properties['variables']), ' variables', "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+cams-europe-air-quality-forecasts: 28 variables
+```
+
 ## The source is omnilab/cds's
 
 The Atmosphere Data Store runs the same software as the Climate Data Store (ECMWF's data stores):
